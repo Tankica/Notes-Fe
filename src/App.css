@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+body {
+    background: rgb(43, 152, 167);
+    background: linear-gradient(90deg, rgba(43, 152, 167, 1) 0%, rgba(128, 198, 221, 1) 100%);
+    font-family: "Bookman Old Style", serif !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box {
+    height: 200px;
+    background: #e4e5e6 linear-gradient(rgba(0, 65, 106, 0.5), transparent);
+    box-shadow: 10px 13px 22px 3px rgba(0, 0, 0, 0.77);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.notes-header {
+    background-color: #35606a;
+    margin-bottom: 2%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.notes-header h2, .btn {
+    color: #80C6DD;
 }
 
-.App-link {
-  color: #61dafb;
+.notes-header .btn:hover {
+    background-color: #80C6DD;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.floatingBtn {
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    bottom: 0;
+    height: 15%;
+    width: 15%;
 }
+
+.icon {
+    color: #35606a;
+}
+
+
+
+
+

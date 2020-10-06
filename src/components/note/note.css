@@ -1,0 +1,74 @@
+.single-note .card {
+    height: 300px;
+}
+
+.single-note .card .card-body {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.single-note a {
+    text-decoration: none;
+    color: #35606a;
+}
+
+.single-note a:hover {
+    font-weight: bold;
+}
+
+.single-note .badge {
+    background-color: #35606a;
+}
+
+.container .btn-info {
+    color: black;
+}
+
+.single-note h3 a {
+    color: white;
+}
+
+
+.create-update-component {
+    background-color: #35606a;
+    padding: 1% 1% 4%;
+    margin-top: 4%;
+    box-shadow: 10px 13px 22px 3px rgba(0, 0, 0, 0.77);
+}
+
+.create-update-component h1 {
+    color: #80C6DD;
+    text-align: center;
+}
+
+.create-update-component .badge {
+    background-color: #51839a;
+    color: white;
+}
+
+.create-update-component .badge a {
+    text-decoration: none;
+}
+
+.create-update-component .buttons {
+    display: inline;
+    margin-left: 0;
+    padding-left: 0;
+    width: 40%;
+    color: black;
+
+}
+
+.create-update-component .buttons:hover {
+    background-color: #d5d5d5;
+}
+
+.create-update-component .buttons:disabled {
+    background-color: #c9c9c9;
+}
+
+.create-update-component .material-icons {
+    font-size: 17px;
+    vertical-align: middle;
+    padding-bottom: 5px;
+}
